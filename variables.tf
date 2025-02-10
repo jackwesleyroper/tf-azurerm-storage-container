@@ -4,10 +4,9 @@ variable "name" {
 
 }
 
-variable "storage_account_name" {
+variable "storage_account_id" {
   type        = string
-  description = "The name of the Storage Account where the Container should be created. Changing this forces a new resource to be created."
-
+  description = "(Optional) The name of the Storage Account where the Container should be created. Changing this forces a new resource to be created."
 }
 
 variable "container_access_type" {

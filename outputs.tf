@@ -12,8 +12,3 @@ output "has_legal_hold" {
   value       = azurerm_storage_container.container.has_legal_hold
   description = "Is there a Legal Hold configured on this Storage Container?"
 }
-
-output "resource_manager_id" {
-  value       = azurerm_storage_container.container.resource_manager_id
-  description = "The Resource Manager ID of this Storage Container."
-}
